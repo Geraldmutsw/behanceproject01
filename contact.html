@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <span class="nav-logo"><a href="index.html">Portfolio</a></span>
+            <ul class="nav-links">
+                <li class="nav-link responsive-link">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-link responsive-link">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="nav-link responsive-link">
+                    <a href="services.html">Services</a>
+                </li>
+                <li class="nav-link responsive-link">
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-link responsive-link">
+                    <a href="#">Resource</a>
+                </li>
+                <li class="nav-link">
+                    <a href="contact.html" class="button secondary-button">Lets Talk</a>
+                </li>
+                <li class="nav-link responsive-menu">
+                    <a href="#"><i class='bx bx-menu'></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <div class="first-heading">
+                <h2>Leave <span>a message</span> or give me a ring</h2>
+                <p>Reach out to me and lets discuss how i can help you achive your goals</p>
+            </div>
+            <div class="contact-form">
+                <form class="form" action="">
+                    <div class="full-name">
+                        <div class="form-group">
+                            <label for="firstname">First Name</label><br>
+                            <input class="form-control" type="text" placeholder="First Name" name="firstname" id="firstname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label><br>
+                            <input class="form-control" type="text" placeholder="Last Name" name="lastname" id="lastname" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label><br>
+                        <input class="form-control" type="email" placeholder="Email" name="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phonenumber">Phone Number</label><br>
+                        <input class="form-control" type="number" placeholder="Phone Number" name="phonenumber" id="phonenumber" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label><br>
+                        <textarea class="form-message" placeholder="Your Message" name="message" id="message" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" class="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">You agree to my friendly <a class="primary" href="#">Privacy Policy</a> And <a class="primary" href="#">Terms of Service</a></label>
+                    </div>
+                    <input type="submit" class="button primary-button" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <div class="contact-details-heading">
+                    <span>CONTACT ME</span>
+                    <h4 class="contact-heading">Reach Out To Me:</h4>
+                    <p class="mb-20">I'm here to listen, Collaborate, and Bring Your Vision to Life <br>
+                        Or Alternatively Download My CV Below
+                    </p>
+                    <a href="#" class="button primary-button">DOWNLOAD CV</a>
+                </div>
+                <div class="contact-details-information">
+                    <div class="address display-flex gap-10">
+                        <i class='bx bx-location-plus'></i>
+                        <div class="content-details">
+                            <h5 class="contact-heading">Workshop 17</h5>
+                            <p>143 West Street Sandown Sandton</p>
+                        </div>
+                    </div>
+                    <div class="email display-flex gap-10">
+                        <i class='bx bx-envelope' ></i>
+                        <div class="content-details">
+                            <h5 class="contact-heading">Work Email</h5>
+                            <p>geraldmutswi@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="phone display-flex gap-10">
+                        <i class='bx bx-phone' ></i>
+                        <div class="content-details">
+                            <h5 class="contact-heading">Work Phone Number</h5>
+                            <p>+27765583866</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="first-heading">
+                <h2><span>Blog</span> Posts</h2>
+                <p>Journey Through Technologies: Dive deep with me in interesting technologies, <br> latest frameworks, interesting AI topics</p>
+            </div>
+            <div class="container">
+                <div class="column">
+                    <div class="blog-card">
+                        <img class="image" src="./assets/images/blog-one.jpg" alt="Blog Image">
+                        <div class="blog-topics d-flex justify-content-space-between">
+                            <div class="topics">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="date">
+                                <span>01/05/2024</span>
+                            </div>
+                        </div>
+                        <a href="#"><h4>Flexbox & Grid layouts</h4></a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="blog-card">
+                        <img class="image" src="./assets/images/project-two.jpg" alt="Blog Image">
+                        <div class="blog-topics d-flex justify-content-space-between">
+                            <div class="topics">
+                                <span>AI</span>
+                                <span>Gemini</span>
+                                <span>CHAT GPT 4</span>
+                            </div>
+                            <div class="date">
+                                <span>01/05/2024</span>
+                            </div>
+                        </div>
+                        <a href="#"><h4>Artificial Intelligence</h4></a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="blog-card">
+                        <img class="image" src="./assets/images/blog-three.jpg" alt="Blog Image">
+                        <div class="blog-topics d-flex justify-content-space-between">
+                            <div class="topics">
+                                <span>REACT JS</span>
+                                <span>NODE JS</span>
+                            </div>
+                            <div class="date">
+                                <span>01/05/2024</span>
+                            </div>
+                        </div>
+                        <a href="#"><h4>Fullstack Development Best Practices</h4></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li class="footer-header">
+                    <h5>Navigation</h5>
+                </li>
+                <li class="footer-link">
+                    <a href="#">About Me</a>
+                </li>
+                <li class="footer-link">
+                    <a href="#">Contact Me</a>
+                </li>
+                <li class="footer-link">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="footer-link">
+                    <a href="#">Services</a>
+                </li>
+            </ul>
+            <ul class="footer-links">
+                <li class="footer-header">
+                    <h5>Useful Links</h5>
+                </li>
+                <li class="footer-link">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="footer-link">
+                    <a href="#">FAQs</a>
+                </li>
+                <li class="footer-link">
+                    <a href="#">Partnerships</a>
+                </li>
+                <li class="footer-link">
+                    <a href="#">Help Center</a>
+                </li>
+            </ul>
+            <ul class="footer-links">
+                <li class="footer-header">
+                    <h5>Resources</h5>
+                </li>
+                <li class="footer-link">
+                    <a href="#">Github</a>
+                </li>
+                <li class="footer-link">
+                    <a href="#">W3 Schools</a>
+                </li>
+                <li class="footer-link">
+                    <a href="#">Stack Overflow</a>
+                </li>
+                <li class="footer-link">
+                    <a href="#">MDN Documentation</a>
+                </li>
+            </ul>
+            <ul class="footer-links">
+                <li class="footer-header">
+                    <h5>Subscribe</h5>
+                </li>
+                <li class="footer-subscription">
+                    <p class="grey">Join my community to  recieve updates <br> and special discounts on projects</p>
+                    <form action="">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="submit" class="button primary-button" value="Subscribe">
+                    </form>
+                    <small class="grey">By subscribing you agree to our Privacy Policy</small>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-content">
+            <h2>Portfolio.</h2>
+            <ul class="social-links">
+                <li class="social-link">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </li>
+                <li class="social-link">
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </li>
+                <li class="social-link">
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </li>
+                <li class="social-link">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom-links">
+            <ul class="bottom-links">
+                <li class="bottom-link">
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li class="bottom-link">
+                    <a href="#">Terms of Service</a>
+                </li>
+                <li class="bottom-link">
+                    <a href="#">Cookie Policy</a>
+                </li>
+            </ul>
+            <p class="bottom-p">&copy; 2024 Portfolio. All rights reserved</p>
+        </div>
+    </footer>
+</html>
